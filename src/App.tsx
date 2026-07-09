@@ -342,29 +342,19 @@ export default function App() {
         <div className="flex items-center gap-4">
           <div className="w-8 h-8 bg-indigo-500 rounded-lg flex items-center justify-center font-bold text-white text-base">E</div>
           <div>
-            <h1 className="text-base font-bold leading-none tracking-tight">CENTRAL - EMPOWER</h1>
-            <p className="text-[10px] text-slate-300 tracking-wider font-semibold mt-0.5 uppercase">LEADERSHIP COMMAND CENTER</p>
+            <h1 className="text-base font-bold leading-none tracking-tight">服事團隊總人數與重點指標</h1>
+            <p className="text-[10px] text-slate-300 tracking-wider font-semibold mt-0.5">Serve team CRM metrics</p>
           </div>
         </div>
         
         <div className="flex items-center gap-6">
-          <div className="hidden md:flex items-center gap-2">
-            <span className="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></span>
-            <span className="text-xs text-slate-300 italic">Report ID: 1783573886142</span>
-          </div>
-          
-          <div className="flex items-center gap-4 border-l border-slate-700 pl-6">
-            <button 
-              onClick={() => setIsImportOpen(true)}
-              className="bg-indigo-600 hover:bg-indigo-500 px-3 py-1.5 rounded text-xs font-medium flex items-center gap-2 transition-colors cursor-pointer"
-            >
-              <FileSpreadsheet className="w-3.5 h-3.5" />
-              Excel 導入
-            </button>
-            <div className="w-8 h-8 rounded-full bg-slate-500 border-2 border-slate-400 flex items-center justify-center font-bold text-xs text-white">
-              ML
-            </div>
-          </div>
+          <button 
+            onClick={() => setIsImportOpen(true)}
+            className="bg-indigo-600 hover:bg-indigo-500 px-3 py-1.5 rounded text-xs font-medium flex items-center gap-2 transition-colors cursor-pointer"
+          >
+            <FileSpreadsheet className="w-3.5 h-3.5" />
+            Excel 導入
+          </button>
         </div>
       </header>
 
