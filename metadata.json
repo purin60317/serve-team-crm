@@ -1,0 +1,6 @@
+{
+  "name": "Central Empower 數據決策儀表板",
+  "description": "領袖決策與服事管理工具：支援分部篩選、自動化 Builder 1, 2, 3 及手機驗證趨勢分析、即時進度更新、與 Excel/CSV 數據無縫銜接與總部數據同步串接功能。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
